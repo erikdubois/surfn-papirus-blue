@@ -12,7 +12,14 @@ A Papirus folder colour for the [surfn-icons](https://github.com/erikdubois) ico
 
 ## Installation (Arch / Kiro — nemesis_repo)
 
-```
+```bash
+# Everything — the whole Surfn collection (base + all variants)
+sudo pacman -S surfn-icons-meta
+
+# The Surfn Papirus family (base + all Papirus colour variants)
+sudo pacman -S surfn-papirus-meta
+
+# Only this variant
 sudo pacman -S surfn-papirus-blue-icons-git
 ```
 
