@@ -1,18 +1,11 @@
 # Changelog
 
-## 2026.06.20 — split out of the surfn monolith
+## 2026.06.23 — Papirus blue folder colour
 
 ### What Changed
 
-Initial standalone repo. The **Surfn-Papirus-Blue** theme was carved out of the monolithic
-`erikdubois/surfn` repo so it ships as its own package, `surfn-papirus-blue-icons-git`, depending on the base
-`surfn-icons-git`.
-
-### Technical Details
-
-- `usr/share/icons/Surfn-Papirus-Blue/` copied verbatim from the monolith; theme dir kept PascalCase
-  so `Inherits=` resolution is unaffected. Repo/package names lowercase per Arch convention.
-- `icon-theme.cache` not shipped — the pacman gtk-update-icon-cache hook rebuilds it on install.
+Initial repo. The **Surfn-Papirus-Blue** folder icons were recoloured to **blue** from the Papirus icon theme
+and ship as `surfn-papirus-blue-icons-git`, depending on `surfn-icons-git`.
 
 ### Files Modified
 
